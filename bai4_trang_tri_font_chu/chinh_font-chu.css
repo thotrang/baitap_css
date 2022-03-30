@@ -1,0 +1,12 @@
+span{
+    color: aquamarine;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: brown;
+}
+li{
+    font-style: italic;
+}
+p{
+    background-color: blueviolet;
+}

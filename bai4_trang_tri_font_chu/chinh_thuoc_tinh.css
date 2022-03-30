@@ -1,0 +1,13 @@
+body{
+    font-size: 30px;
+    width: 80%;
+    margin:auto;
+}
+h1{
+    background-color: rgb(10, 236, 10);
+    text-align: center;
+    text-decoration: underline;
+}
+li{
+    margin-left: 7%;
+}

@@ -1,0 +1,27 @@
+body{
+    font-size: 30px;
+    width: 60%;
+    margin: auto;
+    background-image: url('https://topchiase24h.com/wp-content/uploads/2021/04/hinh-nen-mat-trang-moon-13.jpg'),
+     url('https://m2w4k5m5.stackpathcdn.com/wp-content/uploads/shutterstock_185764439-1000x600.jpg?x38760');
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+
+}
+    div{
+        width:1000px;
+        background-color: rgb(132, 230, 230);
+        background-image: url('https://topchiase24h.com/wp-content/uploads/2021/04/hinh-nen-mat-trang-moon-13.jpg'), url('https://m2w4k5m5.stackpathcdn.com/wp-content/uploads/shutterstock_185764439-1000x600.jpg?x38760');
+        background-size:500px;
+        background-repeat:no-repeat;
+        background-position: top, bottom;
+      }
+
+* {
+    padding: 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>Box Model là một kỹ thuật cơ bản nhất trong CSS Layout và được sử dụng để bạn mô tả về khoảng cách mà mỗi phần tử trên website được sở hữu, hay nói cách khác là kỹ thuật tinh chỉnh khoảng cách hiển thị cho mỗi phần tử trên website. </p>
+        <p>Kỹ thuật Box Model trong CSS bao gồm 4 phần quan trọng đó là:
+            <ol>
+                <li>Margin: Khoảng cách tính từ bên ngoài của phần tử.</li>
+                <li>Border: Đường viền của phần tử.</li>
+                <li>Padding: Khoảng cách tính từ bên trong của phần tử.</li>
+                <li>Content: Nội dung trong phần tử.</li>
+            </ol>
+         </p>
+    </div>
+    <div>
+        <p>Tìm hiểu về box-sizing</p>
+        <p>Khi tinh chỉnh và thay đỏi giá trị của padding hoặc border thì các khung phần tử sẽ bị thay đổi kích thước nếu có sử dụng width hoặc height.</p>
+        <p>muốn tinh chỉnh mà kích thước của khung phần tử được giữ nguyên thì sử dụng box-sizing</p>
+        <p>sử dụng <code>border-box</code>: Khi thiết lập giá trị này, thì width và heigh sẽ bao gồm cho cả phần nội dung, padding và border nhưng không bao gồm margin.</p>
+        <p>Để thiết lập box-sizing: content-box cho toàn bộ phần tử, chúng ta sẽ sử dụng vùng chọn là *, nghĩa là bao gồm mọi phần tử.</p>
+        <pre>
+            * {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+             }
+         </pre>
+    </div>
+</body>
+</html>

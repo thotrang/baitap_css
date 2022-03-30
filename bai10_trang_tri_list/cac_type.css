@@ -1,0 +1,16 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+.h1 li{
+    list-style-type: armenian;
+}
+.h2 li{
+    padding:0px;
+    list-style-position: outside;
+    background-color:aqua;
+}
+.h3 li{
+    list-style-image: url(https://s1.zerochan.net/Hatsune.Miku.600.2879513.jpg);
+
+}

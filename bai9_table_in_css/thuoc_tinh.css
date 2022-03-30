@@ -1,0 +1,23 @@
+/* gộp các dòng thành 1 */
+table{
+    border-collapse: collapse;
+}
+/* chỉnh màu cho bảng */
+th{
+    background-color: rgb(189, 252, 249);
+}
+/* tạo vùng đệm bên trong bằng paddibf */
+td, th{
+    padding:10px;
+}
+/* chỉnh kích thước các ô */
+.bang_2 th{
+    widht:100px;
+    height:50px;
+}
+/* tạo bảng chỉ có kẻ ngang */
+.bang3, th, td{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+
+}

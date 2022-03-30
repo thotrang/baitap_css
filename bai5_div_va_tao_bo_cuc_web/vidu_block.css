@@ -1,0 +1,64 @@
+body{
+    margin: 0 auto;
+    font-size: 25px;
+    width: 1600px;
+    background-color: rgb(175, 170, 170);
+    text-align:left;
+    padding: auto;
+    text-align: right 15px;
+    line-height: 120%;
+
+}
+#home{
+    background-color: white;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 50px;
+ 
+}
+#header{
+    background-color: white;
+    margin-top: 30px;
+    
+
+}
+#content{
+    background-color: white;
+    width: 65%;
+    float:left;
+    padding-left:20px;
+}
+
+#sidebar{
+    background-color: white;
+    width: 20%;
+    float:right;
+    padding-left:60px;
+
+}
+
+#footer{
+    
+    clear:both;
+    text-align: center;
+
+}
+h2{
+    color: rgb(214, 64, 64);
+    text-align: center;
+}
+li{
+    color:rgb(61, 61, 211);
+    font-weight: bold ;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+a{
+    text-decoration: none;
+}
+/* box-sizing:border-box sử dụng thuộc tính này để đưa padding và border vào trong content */
+

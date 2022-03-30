@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="bai1_mo_dau.css">
+    <style type="text/css">
+        .a{
+            font-size:20px;
+            color:aqua;
+            text-align: center;
+        }
+        p{
+            /* text-align: center; */
+            color:brown;
+        }
+    </style>
+    <!--  -->
+</head>
+<body style="font-size:18px">
+    <h3>Phương pháp sử dụng css</h3>
+    <p>có 3 phương pháp: <code> inline CSS, internal CSS, external CSS</code></p>
+
+    <h3>INLINE CSS</h3>
+    <p style="color:red">đây là đoạn văn sử dụng css.</p>
+    <ul><li>để sử dụng inline ta dùng thuộc tính style nằm trong thẻ 
+    </li></ul>
+    <h3>INTERNAL CSS</h3>
+    <ul>
+        <li>khi chúng ta muốn định dạng cho một phần tử HTML nào đó thì chúng ta viết bộ định dạng của phần tử đó vào bên trong phần tử <code>style</code></li>
+        <li>Phần tử <code>style</code> có thể được đặt ở bất kỳ vị trí nào bên trong trang web, tuy nhiên nơi phù hợp nhất chính là nằm bên trong phần tử <code>head</code>.</li>
+        <li>sau đó dung id và class để sử dụng</li>
+    </ul>
+    <div class="a">văn bản ví dụ css</div>
+    <p>văn bản css 2</p>
+
+    <h3>EXTERNAL</h3>
+    <ul>
+        <li>đầu tiên là bạn cần tạo ra một tập tin .css với tên bất kỳ, bạn có thể dùng bất cứ chương trình soạn thảo văn bản nào để tạo.</li>
+        <li>sau đó viết bộ định dạng vào trong file</li>
+        <li>chèn vào tập tin HTML bằng thẻ <code>link</code> và thẻ này phải đặt bên trong cặp thẻ <code>head</code> với <br>
+            <pre>[html]<link rel="stylesheet" href="name.css" />[/html]</li></code>
+            <li>rel là loại tập tin sẽ nhúng, href là đường dẫn</li>
+
+        <div class="b">đây là đoạn văn bản ví dụ css</div>
+    </ul>
+</body>
+</html>
